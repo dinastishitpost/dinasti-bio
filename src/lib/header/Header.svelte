@@ -1,52 +1,41 @@
 <script>
-  import {
-    library
-  } from '@fortawesome/fontawesome-svg-core';
+  import { library } from "@fortawesome/fontawesome-svg-core"
 
   import {
     faDonate,
     faUmbrella,
     faFlag,
-    faChartPie
-  } from '@fortawesome/free-solid-svg-icons'
+    faChartPie,
+  } from "@fortawesome/free-solid-svg-icons"
 
   import {
     FontAwesomeIcon,
     FontAwesomeLayers,
-    FontAwesomeLayersText
-  } from 'fontawesome-svelte';
+    FontAwesomeLayersText,
+  } from "fontawesome-svelte"
 
-  import {
-    page
-  } from '$app/stores';
-  import Logo from './dsi.svelte';
+  import { page } from "$app/stores"
+  import Logo from "./dsi.svelte"
 </script>
 
 <header>
-  <!--
-      	<div class="corner">
-      		<a href="https://kit.svelte.dev">
-      			<img src={logo} alt="SvelteKit" />
-      		</a>
-      	</div>
-
-      	<nav>
-      		<ul>
-      			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-      			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
-      			<li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">Todos</a></li>
-      		</ul>
-      	</nav>
-      	-->
   <div class="logo">
     <Logo />
   </div>
 
   <nav>
-      <a sveltekit:prefetch href="/" class:active={$page.path === '/'}><FontAwesomeIcon icon={faFlag} fixedWidth={true} /></a>
-      <a sveltekit:prefetch href="/donate" class:active={$page.path === '/donate'}><FontAwesomeIcon icon={faDonate} fixedWidth={true} /></a>
-      <a sveltekit:prefetch href="/yarn" class:active={$page.path === '/yarn'}><FontAwesomeIcon icon={faUmbrella} fixedWidth={true} /></a>
-      <a sveltekit:prefetch href="/survey" class:active={$page.path === '/survey'}><FontAwesomeIcon icon={faChartPie} fixedWidth={true} /></a>
+    <a sveltekit:prefetch href="/" class:active={$page.path === "/"}
+      ><FontAwesomeIcon icon={faFlag} fixedWidth={true} /></a
+    >
+    <a sveltekit:prefetch href="/donate" class:active={$page.path === "/donate"}
+      ><FontAwesomeIcon icon={faDonate} fixedWidth={true} /></a
+    >
+    <a sveltekit:prefetch href="/yarn" class:active={$page.path === "/yarn"}
+      ><FontAwesomeIcon icon={faUmbrella} fixedWidth={true} /></a
+    >
+    <a sveltekit:prefetch href="/survey" class:active={$page.path === "/survey"}
+      ><FontAwesomeIcon icon={faChartPie} fixedWidth={true} /></a
+    >
   </nav>
 </header>
 
@@ -62,10 +51,14 @@
     margin-bottom: 20px;
 
     .logo {
-    justify-self: center;
-    align-self: end;
-    width: 70%;
-  }
+      justify-self: center;
+      align-self: end;
+      width: 70%;
+
+      @media (min-width: 768px) {
+        width: 30%;
+      }
+    }
 
     nav {
       justify-self: center;
@@ -73,15 +66,20 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       column-gap: 10px;
-      
+
+      // @media (min-width: 992px) {
+      //   display: none;
+      // }
+
       a {
-        font-size: 30px;
+        font-size: 25px;
         padding: 6px;
         border-radius: 10px;
-        
+        background-color: rgba($color: #000000, $alpha: 0.2);
+
         &.active {
           background-color: #fff;
-          color: rgb(100,100,100);
+          color: rgb(100, 100, 100);
         }
       }
     }

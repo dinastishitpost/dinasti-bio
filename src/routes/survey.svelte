@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>Yarn | DSI</title>
+  <title>Survey | DSI</title>
 </svelte:head>
 
 <section>

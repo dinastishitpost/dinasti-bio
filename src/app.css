@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
-:root {
-  
-}
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 
 body {
-    background-image: url("https://source.unsplash.com/featured/?royal");
-    background-attachment: fixed;
-    background-position: 50% 50%; /* or: center center */
-    background-size: cover;
-    background-repeat: no-repeat; /* CSS3 */
+  background-image: url("https://source.unsplash.com/featured/?royal");
+  background-attachment: fixed;
+  background-position: 50% 50%; /* or: center center */
+  background-size: cover;
+  background-repeat: no-repeat; /* CSS3 */
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
 }
 
 a {
-  color: #F7F7F7;
+  color: #f7f7f7;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 
 #svelte {
   width: 100vw;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.6);
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
