@@ -68,7 +68,7 @@
   	  }
   	  
   	  .svg {
-  	    width: 88px;
+  	    width: 91px;
   	    display: flex;
   	    justify-content: center;
   	    align-items: center;
