@@ -11,12 +11,12 @@
 
 <section>
   <a class="card" target="_blank" href="https://trakteer.id/yarns">
-    <img src="/trakteer.png" alt="" />
+    <img src="/img/trakteer.png" alt="" />
     <span>Trakteer</span>
   </a>
 
   <a class="card" target="_blank" href="https://saweria.co/billytuber">
-    <img src="/sawer.png" alt="" />
+    <img src="/img/sawer.png" alt="" />
     <span>Saweria</span>
   </a>
 </section>

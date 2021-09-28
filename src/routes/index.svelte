@@ -11,17 +11,17 @@
 
 <section>
   <a class="card" target="_blank" href="https://facebook.com/dinastikonten">
-    <img src="/damcc.jpg" alt="" />
+    <img src="/img/damcc.jpg" alt="" />
     <span>Dikala anda menjadi<br />konten kreator</span>
   </a>
 
   <a class="card" target="_blank" href="https://facebook.com/damgfb">
-    <img src="/damgg.jpg" alt="" />
+    <img src="/img/damgg.jpg" alt="" />
     <span>Dikala anda menjadi gamer</span>
   </a>
 
   <a class="card" target="_blank" href="https://facebook.com/dinastishitpost">
-    <img src="/kkkm.jpg" alt="" />
+    <img src="/img/kkkm.jpg" alt="" />
     <span>Keluh Kesah<br />Kehidupan Manusia</span>
   </a>
 
