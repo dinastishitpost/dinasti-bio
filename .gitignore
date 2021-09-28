@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
