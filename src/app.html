@@ -26,6 +26,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     %svelte.head%
+    <script defer>
+      window.onload = () => {
+        console.log(Math.floor(Math.random() * 10) + 1)
+        document.body.style.backgroundImage = `url("/bg/image${
+          Math.floor(Math.random() * 10) + 1
+        }.jpg")`
+      }
+    </script>
   </head>
   <body>
     <div id="svelte">%svelte.body%</div>

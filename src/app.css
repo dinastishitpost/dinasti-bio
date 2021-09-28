@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("https://source.unsplash.com/featured/?royal");
+  /* background-image: url("https://source.unsplash.com/featured/?royal"); */
   background-attachment: fixed;
   background-position: 50% 50%; /* or: center center */
   background-size: cover;
@@ -17,12 +17,12 @@ body {
 }
 
 a {
-  color: #f7f7f7;
+  color: #363636;
   text-decoration: none;
 }
 
 a:hover {
-  color: #eeeeee;
+  color: #1b1b1b;
 }
 
 #svelte {
@@ -37,5 +37,13 @@ a:hover {
   #svelte {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
+  }
+
+  a {
+    color: #d8d8d8;
+  }
+
+  a:hover {
+    color: #eeeeee;
   }
 }

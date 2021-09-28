@@ -24,12 +24,12 @@
 
 <style>
   .cls-1 {
-    fill: #fff;
+    fill: rgb(235, 235, 235);
   }
 
   @media (prefers-color-scheme: light) {
     .cls-1 {
-      fill: #000;
+      fill: rgb(37, 37, 37);
     }
   }
 </style>

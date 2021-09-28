@@ -75,11 +75,20 @@
         font-size: 25px;
         padding: 6px;
         border-radius: 10px;
-        background-color: rgba($color: #000000, $alpha: 0.2);
+        background-color: rgba($color: #fff, $alpha: 0.2);
+
+        @media (prefers-color-scheme: light) {
+          background-color: rgba($color: #000, $alpha: 0.2);
+        }
 
         &.active {
           background-color: #fff;
-          color: rgb(100, 100, 100);
+          color: rgb(51, 51, 51);
+          
+          @media (prefers-color-scheme: light) {
+            background-color: rgb(51, 51, 51);
+            color: rgb(228, 228, 228);
+          }
         }
       }
     }
