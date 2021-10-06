@@ -11,20 +11,14 @@
 </svelte:head>
 
 <section>
-  Coming soon!
-  <!--<a class="card" href="">
-    <img src="/damcc.jpg" alt="" />
-    <span>Dikala anda menjadi<br>konten kreator</span>
+  <a class="card" href="https://youtube.com/channel/UCR6SWzQ-xgl9VV-W1iJtgFQ">
+    <img src="/img/yt.png" alt="" />
+    <span>YouTube</span>
   </a>
   
-  <a class="card" href="">
-    <img src="/damgg.jpg" alt="" />
-    <span>Dikala anda menjadi gamer</span>
+  <a class="card" href="https://twitter.com/yarndinasti">
+    <img src="/img/twitter.png" alt="" />
+    <span>Twitter</span>
   </a>
-  
-  <a class="card" href="">
-    <img src="/kkkm.jpg" alt="" />
-    <span>Keluh Kesah<br>Kehidupan Manusia</span>
-  </a>-->
 </section>
 

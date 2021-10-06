@@ -13,12 +13,12 @@
 <section>
   <a class="card" target="_blank" href="https://facebook.com/dinastikonten">
     <img src="/img/damcc.jpg" alt="" />
-    <span>Dikala anda menjadi<br />konten kreator</span>
+    <span>Dikala Anda Menjadi<br />Konten Kreator</span>
   </a>
 
   <a class="card" target="_blank" href="https://facebook.com/damgfb">
     <img src="/img/damgg.jpg" alt="" />
-    <span>Dikala anda menjadi gamer</span>
+    <span>Dikala Anda Menjadi Gamer</span>
   </a>
 
   <a class="card" target="_blank" href="https://facebook.com/dinastishitpost">

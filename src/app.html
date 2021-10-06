@@ -28,14 +28,17 @@
     %svelte.head%
     <script defer>
       window.onload = () => {
+        const bgImg = document.getElementById("bg-img")
+
         console.log(Math.floor(Math.random() * 10) + 1)
-        document.body.style.backgroundImage = `url("/bg/image${
+        bgImg.style.backgroundImage = `url("/bg/image${
           Math.floor(Math.random() * 10) + 1
         }.jpg")`
       }
     </script>
   </head>
   <body>
+    <div id="bg-img"></div>
     <div id="svelte">%svelte.body%</div>
   </body>
 </html>
